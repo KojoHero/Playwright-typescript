@@ -1,0 +1,17 @@
+{
+  "name": "playwright-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {"test":"npx playwright test",
+    "chromium":"npx playwright test --project=chromium",
+    "debug":"npx playwright test --debug",
+    "codegen":"npx playwright codegen",
+    "report":"npx playwright show-report"},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.31.2"
+  }
+}
